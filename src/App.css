@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: maroon;
+  background-color: teal;
+}
+
+.hero {
+  background-color: teal;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: maroon;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+
+  border-radius: 4px;
+  transition: background-color 0.6s ease;
+}
+
+.navbar a:hover {
+  background-color: teal;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background-color: lightgray;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.sidebar {
+  background-color: lightgrey;
+  min-height: 1000px;
+  width: 400px;
+  padding: 2rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 25%;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0.5rem 0.5rem;
+  border: 3px solid maroon;
+}
+
+.sidebar h2 {
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 10rem;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.main-content h2 {
+  color: blue;
+  margin-bottom: 1.8rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid;
+}
