@@ -6,19 +6,20 @@ function App() {
   return (
     <>
       <div className="hero">Torell Pernell | Full-stack Developer</div>
-
       <nav className="navbar">
         <ul>
           <li>
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/torellpernell" target="_blank">
-              LinkedIn
+            <a href="https://github.com/torellpernell" target="_blank">
+              GitHub
             </a>
           </li>
           <li>
-            <a href="#home">About Me</a>
+            <a href="https://www.linkedin.com/in/torellpernell" target="_blank">
+              LinkedIn
+            </a>
           </li>
           <li>
             <a href="#home">Contact Me</a>
@@ -54,19 +55,44 @@ function App() {
 
         <section>
           <main>
-            <h2 id="main-title">My DevLog</h2>
+            <h1 id="main-title">Welcome to my Development Log</h1>
             <hr />
             <div id="dev-log">
-              <h1>Welcome to my Development Log</h1>
-              <h3>Date: 2025-9-10</h3>
-
-              <p>Entry Number: 1</p>
+              <h3>December 2025</h3>
+              <p>
+                <b>
+                  Field Services web-based application (Javascript, Power BI,
+                  React, Azule SQL, Azure Cognitive Services)
+                </b>
+                <br />
+                Developed to aggregate feedback from multiple channels,
+                including social media, contact centers, app feedback, and NPS.
+                Provided a streamlined interface for analyzing and visualizing
+                customer feedback. Enabled actionable insights to address and
+                resolve customer-facing application issues promptly.
+              </p>
+              <h3>March 2025</h3>
+              <p>
+                <b>Sintra Banking Account (Ruby, HTML, CSS)</b>
+                <br />
+                Developed to provide an on-line, web-based application which
+                allow users to perform basic bank account operations, such as
+                openings, deposits, withdrawals, and closures.
+              </p>
+              <h3>January 2025</h3>
+              <p>
+                <b>Online Bank Account (Ruby, Command-Line Interface)</b>
+                <br />
+                Developed to provide users with a simple, command-line interface
+                to perform basic bank account operations, such as openings,
+                deposits, withdrawals, and closures.
+              </p>
             </div>
           </main>
         </section>
       </div>
-      <LogCard />
-      <LogCard />
+      {/* <LogCard />
+      <LogCard /> */}
     </>
   );
 }

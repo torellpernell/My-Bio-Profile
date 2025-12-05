@@ -62,7 +62,7 @@ body {
 }
 
 .profile-img {
-  width: 150px;
+  width: 225px;
   height: 25%;
   border-radius: 50%;
   object-fit: cover;
@@ -88,4 +88,8 @@ body {
   margin-bottom: 1.8rem;
   font-size: 1.8rem;
   border-bottom: 2px solid;
+}
+
+#dev-log {
+  color: black;
 }
