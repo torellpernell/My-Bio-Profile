@@ -14,4 +14,4 @@ const config = {
 };
 
 const adapter = new PrismaMssql(config);
-const prisma = new PrismaClient({ adapter });
+export const prisma = new PrismaClient({ adapter });
