@@ -1,7 +1,8 @@
 function LogCard({ date, children }) {
   return (
     <div className="LogCard">
-      <p> Hello 2</p>
+      {date && <p className="log-date">{date}</p>}
+      <div className="log-content">{children}</div>
     </div>
   );
 }
