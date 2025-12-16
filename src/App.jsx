@@ -30,7 +30,8 @@ function App() {
         <aside className="sidebar">
           <img
             src={Torell_Pernell_photo}
-            alt="My image"
+            alt="Torell Pernell"
+            loading="lazy"
             height="300px"
             width="500px"
             className="profile-img"
