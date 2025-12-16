@@ -29,7 +29,7 @@ function App() {
       <div className="container">
         <aside className="sidebar">
           <img
-            src={my_photo}
+            src={Torell_Pernell_photo}
             alt="My image"
             height="300px"
             width="500px"
