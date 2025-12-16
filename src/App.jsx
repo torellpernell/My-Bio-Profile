@@ -1,6 +1,6 @@
 import "./App.css";
 import LogCard from "./components/LogCard.jsx";
-import my_photo from "./assets/my_photo.jpg";
+import my_photo from "./assets/Torell_Pernell_photo.jpg";
 
 function App() {
   return (
