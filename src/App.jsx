@@ -5,7 +5,7 @@ import my_photo from "./assets/my_photo.jpg";
 function App() {
   return (
     <>
-      <div className="hero">Torell Pernell | Full-stack Developer</div>
+      <div className="hero">Torell | Full-stack Developer</div>
       <nav className="navbar">
         <ul>
           <li>
